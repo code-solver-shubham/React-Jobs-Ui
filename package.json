@@ -16,3 +16,9 @@
     "vite": "^5.0.0"
   }
 }
+{
+  "name": "react-jobs-ui",
+  "version": "1.0.0",
+  "homepage": "https://code-solver-shubham.github.io/React-Jobs-Ui",
+  ...
+}
