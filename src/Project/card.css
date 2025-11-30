@@ -1,0 +1,128 @@
+/* Global UI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #1c1c1c);
+}
+
+/* Card Glass */
+.card {
+  width: 100%;
+  max-width: 330px;
+  padding: 18px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+
+  transition: 0.35s ease;
+}
+
+/* Hover Neon Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 45px rgba(0, 255, 200, 0.35);
+  background: linear-gradient(135deg, rgba(0,125,255,0.15), rgba(0,255,200,0.10));
+}
+
+/* Top Section */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+/* Save button */
+.save-btn {
+  padding: 6px 12px;
+  background: #ffffff26;
+  border: 1px solid #ffffff40;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  background: #ffffff40;
+}
+
+/* Middle */
+.company {
+  color: #ddd;
+  margin: 12px 0 5px;
+  font-size: 14px;
+}
+
+.company span {
+  opacity: 0.6;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* Tags */
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  background: linear-gradient(135deg, #ff4d4d, #ff8a00);
+  color: white;
+}
+
+/* Bottom Section */
+.ends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.hr h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.hr p {
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* Buy Button */
+.buy-btn {
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #00ff9d, #00c3ff);
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  box-shadow: 0 0 15px #00e6ff;
+}
