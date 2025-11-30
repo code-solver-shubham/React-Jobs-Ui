@@ -1,0 +1,29 @@
+/* Main grid for all cards */
+.main-grid {
+  display: grid;
+  gap: 25px;
+  padding: 30px;
+  justify-content: center;
+}
+
+/* 1 column mobile */
+@media (max-width: 600px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    
+  }
+}
+
+/* 2 columns tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 columns laptop/desktop */
+@media (min-width: 1024px) {
+  .main-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+    }
